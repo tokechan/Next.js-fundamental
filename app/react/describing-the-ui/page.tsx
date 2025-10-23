@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import BackToHome from "../../components/BackToHome";
+import BackToHome from "../../components/Navigation";
 
 export default function DescribingTheUI() {
   return (

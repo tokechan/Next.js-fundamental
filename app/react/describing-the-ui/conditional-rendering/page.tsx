@@ -1,4 +1,4 @@
-import BackToHome from "../../../components/BackToHome";
+import BackToHome from "../../../components/Navigation";
 import Counter from "../../../components/Counter";
 
 export default function ConditionalRendering() {

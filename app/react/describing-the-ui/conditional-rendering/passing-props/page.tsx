@@ -1,4 +1,4 @@
-import BackToHome from "../../../../components/BackToHome";
+import BackToHome from "../../../../components/Navigation";
 
 export default function PassingPropsToAComponent() {
   return (
