@@ -9,29 +9,17 @@ export default function Reacts() {
       <p className="font-mono mb-4">React is a library for building user interfaces.</p>
       <nav>
         <ul className="text-2xl font-bold space-y-2">
-          <li>
-            <Link href="/react/your-first-component" className="hover:underline">Your First Component</Link>
+        <li>
+            <Link href="/react/describing-the-ui" className="hover:underline">Describing the UI</Link>
           </li>
           <li>
-            <Link href="/react/importing-exporting-components" className="hover:underline">Importing and Exporting Components</Link>
+            <Link href="/react/adding-interactivity" className="hover:underline">Adding Interactivity</Link>
           </li>
           <li>
-            <Link href="/react/writing-markup-jsx" className="hover:underline">Writing Markup with JSX</Link>
+            <Link href="/react/managing-state" className="hover:underline">Managing State</Link>
           </li>
           <li>
-            <Link href="/react/javascript-in-jsx" className="hover:underline">JavaScript in JSX with Curly Braces</Link>
-          </li>
-          <li>
-            <Link href="/react/passing-props" className="hover:underline">Passing Props to a Component</Link>
-          </li>
-          <li>
-            <Link href="/react/conditional-rendering" className="hover:underline">Conditional Rendering</Link>
-          </li>
-          <li>
-            <Link href="/react/keeping-components-pure" className="hover:underline">Keeping Components Pure</Link>
-          </li>
-          <li>
-            <Link href="/react/your-ui-as-tree" className="hover:underline">Your UI as a Tree</Link>
+            <Link href="/react/escape-hatches" className="hover:underline">Escapse Hatches</Link>
           </li>
         </ul>
       </nav> 
