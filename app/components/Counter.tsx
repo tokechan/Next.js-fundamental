@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-function Counter() {
+export default function Counter() {
   const [count, setCount] = useState(0);
 
   function increment() {
@@ -33,17 +33,6 @@ function Counter() {
           +
         </button>
       </div>
-    </div>
-  );
-}
-
-export default function Reacts() {
-  return (
-    <div className="container bg-blue-100 dark:bg-blue-900">
-      <h1 className="text-3xl font-bold underline text-foreground">Reacts</h1>
-      <p className="font-mono">Reacts is a library for building user interfaces.</p>
-      
-      <Counter />
     </div>
   );
 }
