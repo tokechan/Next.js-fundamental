@@ -3,7 +3,7 @@
 
 
 import Link from "next/link";
-import BackToHome from "../../components/BackToHome";
+import Navigation from "../../components/Navigation";
 
 export default function ManagingState() {
   return (
@@ -35,7 +35,7 @@ export default function ManagingState() {
           </li>
         </ul>
       </nav> 
-      <BackToHome />
+      <Navigation />
     </div>
   );
 }

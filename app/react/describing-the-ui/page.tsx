@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import BackToHome from "../../components/BackToHome";
+import Navigation from "../../components/Navigation";
 
 export default function DescribingTheUI() {
   return (
@@ -35,7 +35,7 @@ export default function DescribingTheUI() {
           </li>
         </ul>
       </nav> 
-      <BackToHome />
+      <Navigation />
     </div>
   );
 }

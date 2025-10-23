@@ -1,5 +1,5 @@
 import Link from "next/link";
-import BackToHome from "../../components/BackToHome";
+import Navigation from "../../components/Navigation";
 
 export default function EscapeHatches() {
   return (
@@ -34,7 +34,7 @@ export default function EscapeHatches() {
           </li>
         </ul>
       </nav> 
-      <BackToHome />
+      <Navigation />
     </div>
   );
 }
