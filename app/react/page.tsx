@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import BackToHome from "../components/Navigation";
+import Navigation from "../components/Navigation";
 
 export default function Reacts() {
   return (
@@ -23,7 +23,7 @@ export default function Reacts() {
           </li>
         </ul>
       </nav> 
-      <BackToHome />
+      <Navigation />
     </div>
   );
 }

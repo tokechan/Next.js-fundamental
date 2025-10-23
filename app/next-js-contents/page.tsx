@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import BackToHome from "../components/Navigation";
+import Navigation from "../components/Navigation";
 
 
 
@@ -205,7 +205,7 @@ export default function NextJSContents() {
         <div className="mt-8">
           --------------------------------------------------------------
         </div>
-        <BackToHome />
+        <Navigation />
     </div>
   );
 }
