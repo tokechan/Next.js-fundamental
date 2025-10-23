@@ -1,6 +1,6 @@
-import BackToHome from "../../components/BackToHome";
+import BackToHome from "../../../../components/BackToHome";
 
-export default function PassingProps() {
+export default function PassingPropsToAComponent() {
   return (
     <div className="container">
       <h1 className="text-3xl font-bold my-8">Passing Props to a Component</h1>
@@ -9,4 +9,3 @@ export default function PassingProps() {
     </div>
   );
 }
-
